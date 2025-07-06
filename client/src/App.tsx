@@ -1,10 +1,11 @@
-function App() {
+// import Navbar from "./components/Navbar";
+import ProductTable from "./components/ProductTable";
 
+export default function App() {
   return (
-    <div>
-      <h1>HAlo GAISSS</h1>
-    </div>
-  )
+    <>
+      {/* <Navbar /> */}
+      <ProductTable />
+    </>
+  );
 }
-
-export default App
